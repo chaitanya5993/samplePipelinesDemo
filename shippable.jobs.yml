@@ -68,3 +68,12 @@ jobs:
     flags:
       - dv
 
+
+  - name: runSh7
+    type: runSh
+    steps:
+      - IN: runSh6
+      - TASK:
+        - script: echo 'This block executes when the TASK starts'
+    flags:
+      - dv
