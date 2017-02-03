@@ -9,3 +9,30 @@ jobs:
      - IN: pipelines-demo-image5
      - TASK: managed
         
+
+  - name: deploy-pipelines-demo
+    type: deploy
+    flags:
+      - job-flag
+    steps:
+      - IN: pipelines-demo-manifest
+      - IN: docker-options
+      - IN: ecs-cluster
+      - IN: replicas
+      - TASK: managed
+        deployMethod: upgrade
+
+  - name: runSh
+    type: runSh
+    steps:
+      - IN: pipelines-demo-manifest
+      - TASK:
+        - script: echo 'This block executes when the TASK starts'
+
+
+  - name: runSh3
+    type: runSh
+    steps:
+      - IN: deploy-pipelines-demo
+      - TASK:
+        - script: echo 'This block executes when the TASK starts'
