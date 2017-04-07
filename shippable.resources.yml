@@ -64,8 +64,8 @@ resources:
       region: "us-west-2"
  
   - name: irc
-   type: notification
-   pointer:
+    type: notification
+    pointer:
      method: irc
      recipients:
        -  "chat.freenode.net#test-rc123"
