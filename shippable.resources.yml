@@ -76,9 +76,6 @@ resources:
     pointer:
       sourceName: ChaitanyaVootla/samplePyt
       branch: "master"
-      branches:
-        only:
-          - u14*
       buildOnTagPush: true
       buildOnPullRequest: true
       buildOnCommit: false
