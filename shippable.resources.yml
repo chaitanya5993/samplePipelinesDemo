@@ -69,3 +69,16 @@ resources:
      method: irc
      recipients:
        -  "chat.freenode.net#test-rc123"
+
+  - name: rsync_test_gitRepo
+    type: gitRepo
+    integration: git
+    pointer:
+      sourceName: ChaitanyaVootla/samplePyt
+      branch: "master"
+      branches:
+        only:
+          - u14*
+      buildOnTagPush: true
+      buildOnPullRequest: false
+      buildOnCommit: false
