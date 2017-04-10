@@ -80,6 +80,6 @@ resources:
         only:
           - u14*
       buildOnTagPush: true
-      buildOnPullRequest: false
+      buildOnPullRequest: true
       buildOnCommit: false
       
