@@ -79,4 +79,5 @@ resources:
       buildOnTagPush: true
       buildOnPullRequest: true
       buildOnCommit: false
+      buildOnRelease: true
       
