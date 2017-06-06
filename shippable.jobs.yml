@@ -10,8 +10,38 @@ jobs:
      - TASK: managed
     on_success:
      - NOTIFY: irc
-        
 
+  - name: pipelines-demo-manifest-2
+    type: manifest
+    steps:
+     - IN: deploy-pipelines-demo
+     - TASK: managed
+        
+     - NOTIFY: irc
+
+  - name: pipelines-demo-manifest-3
+    type: manifest
+    steps:
+     - IN: deploy-pipelines-demo
+     - TASK: managed     - NOTIFY: irc
+
+  - name: pipelines-demo-manifest-42
+    type: manifest
+    steps:
+     - IN: deploy-pipelines-demo
+     - TASK: managed     - NOTIFY: irc
+
+  - name: pipelines-demo-manifest-25
+    type: manifest
+    steps:
+     - IN: deploy-pipelines-demo
+     - TASK: managed     - NOTIFY: irc
+
+  - name: pipelines-demo-manifest-21
+    type: manifest
+    steps:
+     - IN: deploy-pipelines-demo
+     - TASK: managed
   - name: deploy-pipelines-demo
     type: deploy
     flags:
