@@ -216,49 +216,49 @@ jobs:
 # new
 
 
-  - name: newManifest
+  - name: newManifesta
     type: manifest
     steps:
      - IN: pipelines-demo-manifest
      - TASK: managed
 
-  - name: newManifest
+  - name: newManifestb
     type: manifest
     steps:
      - IN: pipelines-demo-manifest
      - TASK: managed
 
-  - name: newManifest
+  - name: newManifestc
     type: manifest
     steps:
      - IN: pipelines-demo-manifest
      - TASK: managed
 
-  - name: newManifest
+  - name: newManifests
     type: manifest
     steps:
      - IN: pipelines-demo-manifest
      - TASK: managed
 
-  - name: newManifest
+  - name: newManifestddd
     type: manifest
     steps:
      - IN: pipelines-demo-manifest
      - TASK: managed
 
-  - name: newManifest
+  - name: newManifestafa
     type: manifest
     steps:
      - IN: pipelines-demo-manifest
      - TASK: managed
 
-  - name: newManifest
+  - name: newManifestsssd
     type: manifest
     steps:
      - IN: pipelines-demo-manifest
      - TASK: managed
 
-  - name: newManifest
+  - name: newManifestadaas
     type: manifest
     steps:
      - IN: pipelines-demo-manifest
