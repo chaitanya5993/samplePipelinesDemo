@@ -95,3 +95,119 @@ jobs:
       - IN: deploy-pipelines-demo
       - TASK:
         - script: echo 'This block executes when the TASK starts'
+
+
+  - name: pipelines-demo-manifest-2as
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+        
+     - NOTIFY: irc
+
+  - name: pipelines-demo-manifest-3dd
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-42sd
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-25sd
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-21as
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+ 
+
+  - name: pipelines-demo-manifest-3312as
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-4232as
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-25222d
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-21333as
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+     
+
+  - name: pipelines-demo-manifest-2as
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+        
+     - NOTIFY: irc
+
+  - name: pipelines-demo-manifest-3dd
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-42sd
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-25sd
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-21as
+    type: manifest
+    steps:
+     - IN: runSh3
+     - TASK: managed
+ 
+
+  - name: pipelines-demo-manifest-33s12as
+    type: manifest
+    steps:
+     - IN: runSh
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-4232ssas
+    type: manifest
+    steps:
+     - IN: runSh
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-25ddas222d
+    type: manifest
+    steps:
+     - IN: runSh
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-21s33as
+    type: manifest
+    steps:
+     - IN: runSh
+     - TASK: managed
