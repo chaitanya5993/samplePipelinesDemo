@@ -97,7 +97,7 @@ jobs:
         - script: echo 'This block executes when the TASK starts'
 
 
-  - name: pipelines-demo-manifest-2as
+  - name: pipelines-demo-manifest-2asdd
     type: manifest
     steps:
      - IN: runSh3
@@ -105,25 +105,25 @@ jobs:
         
      - NOTIFY: irc
 
-  - name: pipelines-demo-manifest-3dd
+  - name: pipelines-demo-manifest-3dddd
     type: manifest
     steps:
      - IN: runSh3
      - TASK: managed
 
-  - name: pipelines-demo-manifest-42sd
+  - name: pipelines-demo-manifest-42sddd
     type: manifest
     steps:
      - IN: runSh3
      - TASK: managed
 
-  - name: pipelines-demo-manifest-25sd
+  - name: pipelines-demo-manifest-25sddd
     type: manifest
     steps:
      - IN: runSh3
      - TASK: managed
 
-  - name: pipelines-demo-manifest-21as
+  - name: pipelines-demo-manifest-21asaa
     type: manifest
     steps:
      - IN: runSh3
