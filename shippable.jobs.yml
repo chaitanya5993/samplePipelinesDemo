@@ -211,3 +211,107 @@ jobs:
     steps:
      - IN: runSh
      - TASK: managed
+
+
+# new
+
+
+  - name: newManifest
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest
+     - TASK: managed
+
+  - name: newManifest
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest
+     - TASK: managed
+
+  - name: newManifest
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest
+     - TASK: managed
+
+  - name: newManifest
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest
+     - TASK: managed
+
+  - name: newManifest
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest
+     - TASK: managed
+
+  - name: newManifest
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest
+     - TASK: managed
+
+  - name: newManifest
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest
+     - TASK: managed
+
+  - name: newManifest
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest
+     - TASK: managed
+
+# new2
+
+
+  - name: newManifest2
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest-21as
+     - TASK: managed
+
+  - name: newManifest23
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest-21as
+     - TASK: managed
+
+  - name: newManifest3
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest-21as
+     - TASK: managed
+
+  - name: newManifest232
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest-21as
+     - TASK: managed
+
+  - name: newManifest2s
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest-21as
+     - TASK: managed
+
+  - name: newManifestwds
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest-21as
+     - TASK: managed
+
+  - name: newManifestasdw
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest-21as
+     - TASK: managed
+
+  - name: newManifestaa
+    type: manifest
+    steps:
+     - IN: pipelines-demo-manifest-21as
+     - TASK: managed
+
