@@ -271,48 +271,88 @@ jobs:
     type: manifest
     steps:
      - IN: pipelines-demo-manifest-21as
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifest23
     type: manifest
     steps:
      - IN: pipelines-demo-manifest-21as
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifest3
     type: manifest
     steps:
      - IN: pipelines-demo-manifest-21as
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifest232
     type: manifest
     steps:
      - IN: pipelines-demo-manifest-21as
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifest2s
     type: manifest
     steps:
      - IN: pipelines-demo-manifest-21as
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifestwds
     type: manifest
     steps:
      - IN: pipelines-demo-manifest-21as
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifestasdw
     type: manifest
     steps:
      - IN: pipelines-demo-manifest-21as
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifestaa
     type: manifest
     steps:
      - IN: pipelines-demo-manifest-21as
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
 # new3
@@ -322,36 +362,66 @@ jobs:
     type: manifest
     steps:
      - IN: newManifestc
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifest23cczx
     type: manifest
     steps:
      - IN: newManifestc
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifest3bb
     type: manifest
     steps:
      - IN: newManifestc
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifest232zxx
     type: manifest
     steps:
      - IN: newManifestc
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifest2sw
     type: manifest
     steps:
      - IN: newManifestc
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifestwdsasd
     type: manifest
     steps:
      - IN: newManifestc
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
   - name: newManifestasdwwe
@@ -364,5 +434,10 @@ jobs:
     type: manifest
     steps:
      - IN: newManifestc
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image2
+     - IN: pipelines-demo-image3
+     - IN: pipelines-demo-image4
+     - IN: pipelines-demo-image5
      - TASK: managed
 
