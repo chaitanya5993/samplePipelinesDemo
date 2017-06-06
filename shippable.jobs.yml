@@ -315,3 +315,54 @@ jobs:
      - IN: pipelines-demo-manifest-21as
      - TASK: managed
 
+# new3
+
+
+  - name: newManifest2xzx
+    type: manifest
+    steps:
+     - IN: newManifestc
+     - TASK: managed
+
+  - name: newManifest23cczx
+    type: manifest
+    steps:
+     - IN: newManifestc
+     - TASK: managed
+
+  - name: newManifest3bb
+    type: manifest
+    steps:
+     - IN: newManifestc
+     - TASK: managed
+
+  - name: newManifest232zxx
+    type: manifest
+    steps:
+     - IN: newManifestc
+     - TASK: managed
+
+  - name: newManifest2sw
+    type: manifest
+    steps:
+     - IN: newManifestc
+     - TASK: managed
+
+  - name: newManifestwdsasd
+    type: manifest
+    steps:
+     - IN: newManifestc
+     - TASK: managed
+
+  - name: newManifestasdwwe
+    type: manifest
+    steps:
+     - IN: newManifestc
+     - TASK: managed
+
+  - name: newManifestaaa22
+    type: manifest
+    steps:
+     - IN: newManifestc
+     - TASK: managed
+
