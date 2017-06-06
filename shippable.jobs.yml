@@ -43,6 +43,30 @@ jobs:
      - IN: deploy-pipelines-demo
      - TASK: managed
  
+
+  - name: pipelines-demo-manifest-3312
+    type: manifest
+    steps:
+     - IN: deploy-pipelines-demo
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-4232
+    type: manifest
+    steps:
+     - IN: deploy-pipelines-demo
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-25222
+    type: manifest
+    steps:
+     - IN: deploy-pipelines-demo
+     - TASK: managed
+
+  - name: pipelines-demo-manifest-21333
+    type: manifest
+    steps:
+     - IN: deploy-pipelines-demo
+     - TASK: managed
   - name: deploy-pipelines-demo
     type: deploy
     flags:
