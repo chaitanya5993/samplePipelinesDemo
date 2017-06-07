@@ -86,7 +86,7 @@ jobs:
       - IN: rsync_test_gitRepo
       - TASK:
         - script: echo 'This block executes when the TASK starts'
-        - script: sleep 1
+        - script: echo "versionName=satble" >> $JOB_STATE/runSh.env;
 
 
   - name: runSh3
@@ -95,6 +95,7 @@ jobs:
       - IN: deploy-pipelines-demo
       - TASK:
         - script: echo 'This block executes when the TASK starts'
+        - script: echo "versionName=satble" >> $JOB_STATE/runSh3.env;
 
 
   - name: pipelines-demo-manifest-2asdd
