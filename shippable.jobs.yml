@@ -83,7 +83,6 @@ jobs:
     type: runSh
     steps:
       - IN: pipelines-demo-manifest
-      - IN: rsync_test_gitRepo
       - TASK:
         - script: echo 'This block executes when the TASK starts'
         - script: echo "versionName=satble" >> $JOB_STATE/runSh.env;
