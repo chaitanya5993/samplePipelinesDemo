@@ -85,6 +85,8 @@ jobs:
     type: runSh
     steps:
       - IN: pipelines-demo-manifest
+      - IN: my-state
+      - OUT: my-state
       - TASK:
         - script: echo 'This block executes when the TASK starts'
         - script: echo "versionName=satble" >> $JOB_STATE/runSh.env;
@@ -222,6 +224,8 @@ jobs:
     type: manifest
     steps:
      - IN: pipelines-demo-manifest
+     - IN: my-state
+     - OUT: my-state
      - TASK: managed
 
   - name: newManifestb
