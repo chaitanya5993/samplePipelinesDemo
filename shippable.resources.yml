@@ -70,3 +70,5 @@ resources:
      recipients:
        -  "chat.freenode.net#test-rc123"
       
+  - name: my-state
+    type: state
