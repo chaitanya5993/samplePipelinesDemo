@@ -76,6 +76,8 @@ jobs:
       - IN: docker-options
       - IN: ecs-cluster
       - IN: replicas
+      - IN: my-state
+      - OUT: my-state
       - TASK: managed
         deployMethod: upgrade
 
