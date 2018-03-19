@@ -72,3 +72,12 @@ resources:
       
   - name: my-state
     type: state
+
+  - name: orphan-test
+    type: image
+    integration: shipdeploy
+    pointer:
+      sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
+      isPull: false
+    seed:
+      versionName: "latest"
