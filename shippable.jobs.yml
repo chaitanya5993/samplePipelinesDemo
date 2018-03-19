@@ -86,6 +86,7 @@ jobs:
     steps:
       - IN: pipelines-demo-manifest
       - IN: my-state
+      - IN: orphan-test
       - OUT: my-state
       - TASK:
         - script: echo 'This block executes when the TASK starts'
